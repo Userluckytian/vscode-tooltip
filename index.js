@@ -29,9 +29,11 @@ module.exports.activate = function (context) {
                 if (components.length) {
                     // 会存在空格，记得要顶住最前边去写
                     const md = `#### __列表组件__
-<font color='gray' size=1>展示列表数据。</font>
+<font color='gray' size=1>这是一个展示列表数据的组件。</font>
 #### __何时使用__
-<font color='gray' size=1>请查看组件官方文档：[城方ui组件：cf-list](https://cityfun.com.cn/cf-list.md)。</font>`;
+<font color='gray' size=1>请查看组件官方文档：[ui组件：cf-list](https://cityfun.com.cn/cf-list.md)。</font>
+#### __招聘信息__
+<font color='gray' size=1>[官网](https://cityfun.com.cn/cf-list.md)</font>`;
                     const markdown = new vscode.MarkdownString(md);
                     markdown.isTrusted = true;
                     return new vscode.Hover(markdown);
