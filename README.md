@@ -11,7 +11,7 @@
 
 # 进阶
 
-1. 根据自己的需求，去开发命令类型的功能，还是展示类型的功能
+1. 根据自己的需求，去开发命令类型的功能，还是展示类型的功能, [官网教程和文档](https://code.visualstudio.com/api/get-started/your-first-extension)
 2. 以上都需要自己去看vscode拓展工具开发文档，这里仅是演示。
 
 # 参考文献：
